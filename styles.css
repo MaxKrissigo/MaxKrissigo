@@ -1,3 +1,19 @@
+body {
+    background-image: url(https://i.imgur.com/RyEmQTm.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profile-pic {
+    height: 150px;
+    width: 225px;
+    margin-top: 40px;
+    text-align: center;
+    animation: resize .7s ease-in-out infinite alternate;
+}
+
 #footer {
     color: #fff;
     margin-top: 50px;
