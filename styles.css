@@ -1,1 +1,10 @@
-
+#footer {
+  color: #fff;
+  text-align: center
+  font-family: Quicksand_Light;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
