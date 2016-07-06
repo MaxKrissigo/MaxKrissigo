@@ -10,7 +10,8 @@ body {
     height: 120px;
     width: 120px;
     margin-top: 40px;
-    align: middle;
+    margin: auto;
+    display: block;
     animation: resize .7s ease-in-out infinite alternate;
 }
 
