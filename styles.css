@@ -15,7 +15,7 @@ body {
 }
 
 #profile-pic:hover {
-    animation: img-hover 5s infinite;
+    animation: imghover 5s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -32,7 +32,7 @@ body {
     font-family: Quicksand_Light;
 }
 
-@keyframes img-hover {
+@keyframes imghover {
     position: relative
     left: 50%; 
     margin-left: 60px;
