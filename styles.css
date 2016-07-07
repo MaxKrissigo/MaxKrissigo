@@ -37,38 +37,30 @@ body {
     margin-top: 50px;
 }
 
-div {
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    font-weight: bold;
+#profilepicture img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
+#profilepicture img:hover {
     position: relative;
+    animation-timing-function: linear;
     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
     animation: mymove 5s infinite;
+    
 }
 
 /* Chrome, Safari, Opera */
-#div1 {-webkit-animation-timing-function: linear;}
-#div2 {-webkit-animation-timing-function: ease;}
-#div3 {-webkit-animation-timing-function: ease-in;}
-#div4 {-webkit-animation-timing-function: ease-out;}
-#div5 {-webkit-animation-timing-function: ease-in-out;}
-
-/* Standard syntax */
-#div1 {animation-timing-function: linear;}
-#div2 {animation-timing-function: ease;}
-#div3 {animation-timing-function: ease-in;}
-#div4 {animation-timing-function: ease-out;}
-#div5 {animation-timing-function: ease-in-out;}
-
-/* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    from {left: 0px;}
+    from {left: 500px;}
     to {left: 300px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    from {left: 0px;}
+    from {left: 500px;}
     to {left: 300px;}
 }
