@@ -18,7 +18,7 @@ body {
     animation: fadeIn 2s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
-    animation-delay: 10s;
+    animation-delay: 6s;
 }
 
 div img {
