@@ -38,14 +38,34 @@
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    0%{margin-right:-60%;}
-    100%{margin-right:25%;}
+    from {
+        width:0px;
+        margin-left: 0;
+        margin-top: 0;
+        height:0px;
+    }
+    to {
+        width: 700px;
+        margin-left: -350px;
+        margin-top: -175px;
+        height:350px;
+    }
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    0%{margin-right:-60%;}
-    100%{margin-right:25%;}
+    from {
+        width:0px;
+        margin-left: 0;
+        margin-top: 0;
+        height:0px;
+    }
+    to {
+        width: 700px;
+        margin-left: -350px;
+        margin-top: -175px;
+        height:350px;
+    }
 }
 
       @font-face { 
