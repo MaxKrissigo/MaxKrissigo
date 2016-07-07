@@ -34,6 +34,5 @@ body {
 
 @keyframes imghover {
     position: relative
-    left: 50%; 
-    margin-left: 60px;
+    margin-top: -60px;
 }
