@@ -12,8 +12,15 @@ body {
     margin-top: 40px;
     margin: auto;
     display: block;
-    animation: resize .7s ease-in-out infinite alternate;
 }
+
+#profile-pic img:hover {
+    animation-delay: 5s;
+    animation: imghover 5s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 
 #footer {
     color: #fff;
@@ -24,4 +31,14 @@ body {
     font-size: 25px;
     text-align: center;
     font-family: Quicksand_Light;
+}
+
+@keyframes img-hover {
+    from {
+        margin: auto;
+    }
+
+    to {
+        margin-left: 60px;
+    }
 }
