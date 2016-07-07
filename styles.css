@@ -12,13 +12,14 @@ body {
     margin: auto;
     margin-top: 50px;
     display: block;
-    opacity: 0
+    font-size: 25px;
+    text-align: center;
     position: relative;
-    -webkit-animation: fadeIn 2s infinite;
-    animation: fadeIn 2s infinite;
+    -webkit-animation: fadeIn 4s infinite;
+    animation: fadeIn 4s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
-    animation-delay: 7s;
+    animation-delay: 4s;
 }
 
 div img {
