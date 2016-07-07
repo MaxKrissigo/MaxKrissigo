@@ -6,6 +6,10 @@ body {
     background-size: cover;
 }
 
+div1 {
+    
+}
+
 div img {
     width: 120px;
     height: 120px;
@@ -22,13 +26,22 @@ div img {
     animation-delay: 5s;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
+@-webkit-keyframes mymove { /* Chrome, Safari */
     from {right: 0px; }
     to {right: 20%; }
 }
-/* Standard syntax */
-@keyframes mymove {
+
+@-o-keyframes fadein { /* Opera */
+    from {right: 0px; }
+    to {right: 20%; }
+}
+
+@keyframes mymove { /* Standard syntax */
+    from {right: 0px; }
+    to {right: 20%;}
+}
+
+@-moz-keyframes fadein { /* Firefox */
     from {right: 0px; }
     to {right: 20%;}
 }
