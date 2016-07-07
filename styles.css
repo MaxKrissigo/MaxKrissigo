@@ -15,7 +15,7 @@ body {
 }
 
 #profile-pic:hover {
-    animation: imghover 5s infinite;
+    animation: img-hover 5s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
