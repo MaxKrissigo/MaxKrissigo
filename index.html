@@ -15,8 +15,7 @@
     width: 120px;
     height: 120px;
     position: relative;
-    margin-left: 60px;
-    animatio-delay: 3s;
+    animatio-delay: 10s;
     -webkit-animation: mymove 5s infinite; 
     animation: mymove 5s infinite;
     animation-iteration-count: 1;
@@ -39,7 +38,12 @@
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-  left: 50%; 
+  from {
+    margin-left: 60px;
+  }
+  to {
+    left: 50%; 
+  }
 }
 
 /* Standard syntax */
