@@ -33,13 +33,6 @@ body {
 }
 
 @keyframes img-hover {
-    from {
-        margin: auto;
-        
-    }
-
-    to {
-        left: 50%; 
-        margin-left: 60px;
-    }
+    left: 50%; 
+    margin-left: 60px;
 }
