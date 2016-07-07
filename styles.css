@@ -6,8 +6,18 @@ body {
     background-size: cover;
 }
 
-div1 {
-    
+.fadeIn {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    position: relative;
+    -webkit-animation: fadeIn 2s infinite;
+    animation: fadeIn 2s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 6s;
 }
 
 div img {
@@ -17,33 +27,69 @@ div img {
     margin-top: 50px;
     display: block;
     position: relative;
-    -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 3s infinite;
+    -moz-animation: moveProfile 3s infinite;
+    -webkit-animation: moveProfile 3s infinite;
+    -o-animation: moveProfile 3s infinite;
+    animation: moveProfile 3s infinite;
+    -o-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
-    animation-timing-function: linear;
     animation-delay: 5s;
 }
 
-@-webkit-keyframes mymove { /* Chrome, Safari */
+@-webkit-keyframes moveProfile { /* Chrome, Safari */
     from {right: 0px; }
     to {right: 20%; }
 }
 
-@-o-keyframes fadein { /* Opera */
+@-o-keyframes moveProfile { /* Opera */
     from {right: 0px; }
     to {right: 20%; }
 }
 
-@keyframes mymove { /* Standard syntax */
+@keyframes moveProfile { /* Standard syntax */
     from {right: 0px; }
     to {right: 20%;}
 }
 
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes moveProfile { /* Firefox */
     from {right: 0px; }
     to {right: 20%;}
+}
+@keyframes fadeIn { /* Standard syntax */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeIn { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeIn { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeIn { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #footer {
