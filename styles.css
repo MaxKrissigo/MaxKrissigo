@@ -33,6 +33,7 @@ body {
 }
 
 @keyframes img-hover {
+    position: relative
     left: 50%; 
     margin-left: 60px;
 }
